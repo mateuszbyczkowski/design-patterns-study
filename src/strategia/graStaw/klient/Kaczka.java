@@ -8,6 +8,10 @@ public abstract class Kaczka {
     private Kwakanie kwakanie;
     private Latanie latanie;
 
+    public void lec() {
+        System.out.println("LATAAM!");
+    }
+
     public void plywaj() {
         System.out.println("Kaczka plywa");
     }

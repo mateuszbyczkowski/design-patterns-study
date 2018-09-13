@@ -1,14 +1,14 @@
 package warmup;
 
-public class Margaritha extends Pizza {
-    public Margaritha() {
+public class Napoli extends Pizza {
+    public Napoli() {
         setPrice(20.0f);
         setWeight(10.0f);
     }
 
     @Override
     public String description() {
-        return "Pizza Margarita! Smakuje jak domowa :)";
+        return "Pizza NAPOLI! Smakuje jak domowa :)";
     }
 
     @Override

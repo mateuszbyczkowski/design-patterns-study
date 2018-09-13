@@ -1,6 +1,9 @@
 package warmup;
 
 public abstract class Pizza implements Dish {
+    private Float price;
+    private Float weight;
+
     public Float getPrice() {
         return price;
     }
@@ -17,8 +20,5 @@ public abstract class Pizza implements Dish {
         this.weight = weight;
     }
 
-    private Float price;
-    private Float weight;
-
-
+    public abstract boolean isPrzypalona();
 }

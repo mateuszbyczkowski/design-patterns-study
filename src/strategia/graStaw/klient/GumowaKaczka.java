@@ -9,6 +9,8 @@ public class GumowaKaczka extends Kaczka {
         super.ustawKwakanie(new Piszcz());
         super.ustawLatanie(new NieLatam());
     }
+
+
     @Override
     public void wyswietl() {
         System.out.println("Jestem gumowa kaczka!");

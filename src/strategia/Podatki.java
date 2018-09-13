@@ -9,7 +9,7 @@ interface Tax {
 class TaxPL implements Tax {
     public double count(double taxAmount) {
         return 0.23 * taxAmount;
-    }
+}
 }
 
 class TaxEN implements Tax {
@@ -20,6 +20,10 @@ class TaxEN implements Tax {
 
 class Context {
     private Tax tax;
+
+    public Context(Tax tax) {
+        this.tax = tax;
+    }
 
     public Tax getTax() {
         return tax;
@@ -32,12 +36,13 @@ class Context {
 
 class Main {
     public static void main(String[] args) {
-        Context context = new Context();
+        Context context = new Context(new TaxPL());
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Podaj kwotę do obliczenia");
         int num = scan.nextInt();
-
+        Tax tax = new TaxPL();
+        tax.count(num);
         System.out.println("Podatek Polski wyniósł");
         context.setTax(new TaxPL());
         System.out.println(context.getTax().count(num));
