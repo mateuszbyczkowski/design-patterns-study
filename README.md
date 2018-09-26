@@ -11,3 +11,6 @@ Study contains following examples:
 * Strategy
 
 Bonus: object oriented warmup.
+
+## Author
+Mateusz Byczkowski SDA Java trainer
