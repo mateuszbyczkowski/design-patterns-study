@@ -8,10 +8,6 @@ public abstract class Kaczka {
     private Kwakanie kwakanie;
     private Latanie latanie;
 
-    public void lec() {
-        System.out.println("LATAAM!");
-    }
-
     public void plywaj() {
         System.out.println("Kaczka plywa");
     }
@@ -24,13 +20,13 @@ public abstract class Kaczka {
         latanie.lec();
     }
 
-    public void ustawLatanie(Latanie latanie) {
+    void ustawLatanie(Latanie latanie) {
         this.latanie = latanie;
     }
 
-    public void ustawKwakanie(Kwakanie kwakanie) {
+    void ustawKwakanie(Kwakanie kwakanie) {
         this.kwakanie = kwakanie;
     }
 
-    public abstract void  wyswietl();
+    public abstract void wyswietl();
 }

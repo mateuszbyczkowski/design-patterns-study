@@ -1,9 +1,9 @@
 package warmup;
 
 public class Margaritha extends Pizza {
-    public Margaritha() {
-        setPrice(20.0f);
-        setWeight(10.0f);
+    public Margaritha(float i, float i1) {
+        setPrice(i);
+        setWeight(i1);
     }
 
     @Override

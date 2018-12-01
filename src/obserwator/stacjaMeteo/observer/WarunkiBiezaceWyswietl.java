@@ -5,11 +5,9 @@ import obserwator.stacjaMeteo.subject.Podmiot;
 public class WarunkiBiezaceWyswietl implements WyswietlElement, Obserwator {
     private float temperatura;
     private float wilgotnosc;
-    private Podmiot danePogodowe;
 
     public WarunkiBiezaceWyswietl(Podmiot danePogodowe) {
-        this.danePogodowe = danePogodowe;
-        this.danePogodowe.zarejestrujObserwatora(this);//rejestrujemy siebie!
+        danePogodowe.zarejestrujObserwatora(this);//rejestrujemy siebie!
     }
 
     @Override

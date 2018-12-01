@@ -3,15 +3,15 @@ package obserwator.stacjaMeteo.subject;
 import obserwator.stacjaMeteo.observer.Obserwator;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class DanePogodowe implements Podmiot {
-    private ArrayList obserwatorzy;
+    private List<Obserwator> obserwatorzy = new ArrayList<>();
     private float temperatura;
     private float wilgotnosc;
     private float cisnienie;
 
     public DanePogodowe() {
-        obserwatorzy = new ArrayList();
     }
 
     @Override
@@ -29,9 +29,8 @@ public class DanePogodowe implements Podmiot {
 
     @Override
     public void powiadomObserwatorow() {
-        for (Object obs : obserwatorzy) {
-            Obserwator obserwator = (Obserwator) obs;
-            obserwator.aktualizacja(temperatura, wilgotnosc, cisnienie);
+        for (Obserwator obs : obserwatorzy) {
+            obs.aktualizacja(temperatura, wilgotnosc, cisnienie);
         }
     }
 

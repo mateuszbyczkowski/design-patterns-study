@@ -5,40 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="218d21eb-1a76-4d10-8f49-2b495e2092d9" name="Default" comment="fix">
-      <change afterPath="$PROJECT_DIR$/src/fabryka/abstractFactory/AbstractFactoryClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/car/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/car/FiatBravoCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/car/FiatPandaCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/car/VwGolfCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/car/VwPassatCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/factoryMethods/AbstractCarProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/factoryMethods/FiatCarProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/factoryMethods/VolkswagenCarProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/factoryMethods/AbstractProductProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/factoryMethods/GermanProductProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/factoryMethods/PolishProductProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/product/GermanRoundProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/product/GermanSquareProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/product/PolishRoundProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/product/PolishSquareProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obserwator/pogotowie/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obserwator/pogotowie/observer/Ambulance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obserwator/pogotowie/observer/FirstAmbulance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obserwator/pogotowie/observer/SecondAmbulance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obserwator/pogotowie/observer/ThirdAmbulance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obserwator/pogotowie/subject/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obserwator/pogotowie/subject/OperatorAdam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obserwator/stacjaMeteo/observer/StatystykaPogodowa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/ClassicSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategia/podatki/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategia/podatki/Tax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategia/podatki/TaxDE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategia/podatki/TaxPL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wzorce/fabryka/factoryMethod/simpleExample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wzorce/fabryka/factoryMethod/simpleExample/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Wzorce/obserwator/pogotowie/subject/OperatorAdam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wzorce/obserwator/pogotowie/subject/OperatorAdam.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Wzorce/singleton/ClassicSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wzorce/singleton/ClassicSingleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wzorce/strategia/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wzorce/strategia/Context.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wzorce/strategia/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wzorce/strategia/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wzorce/strategia/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wzorce/strategia/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wzorce/strategia/Tax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wzorce/strategia/TaxEN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wzorce/strategia/TaxPL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wzorce/strategia/graStaw/klient/Kaczka.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wzorce/strategia/graStaw/klient/Kaczka.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wzorce/warmup/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wzorce/warmup/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wzorce/warmup/Margaritha.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wzorce/warmup/Margaritha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obserwator/stacjaMeteo/observer/WarunkiBiezaceWyswietl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/obserwator/stacjaMeteo/observer/WarunkiBiezaceWyswietl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obserwator/stacjaMeteo/observer/WyswietlElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/obserwator/stacjaMeteo/observer/WyswietlElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obserwator/stacjaMeteo/subject/DanePogodowe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/obserwator/stacjaMeteo/subject/DanePogodowe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/singleton/ClassicSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singleton/ClassicSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategia/Podatki.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategia/podatki/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategia/graStaw/klient/Kaczka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategia/graStaw/klient/Kaczka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/warmup/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/warmup/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/warmup/Margaritha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/warmup/Margaritha.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,135 +43,13 @@
       <FILTER>Dekorator.RpgGame.*</FILTER>
     </SUITE>
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1907618274">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="72" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="72" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="615" />
-          <entry key="txt" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="615" />
-          <entry key="PLAIN_TEXT" value="4" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/car/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/car/FiatBravoCar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
-              <folding>
-                <element signature="e#136#137#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/car/FiatPandaCar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/car/VwGolfCar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/car/VwPassatCar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/factoryMethods/AbstractCarProcess.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/factoryMethods/FiatCarProcess.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/factoryMethods/VolkswagenCarProcess.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/obserwator/stacjaMeteo/StacjaMeteo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="364">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -207,17 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/fabryka/factoryMethod/excersise/factoryMethods/GermanProductProcess.java" />
-        <option value="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/factoryMethods/GermanProductProcess.java" />
-        <option value="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/factoryMethods/GermanCarProcess.java" />
-        <option value="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/factoryMethods/VolkswagenCarProcess.java" />
-        <option value="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/factoryMethods/AbstractCarProcess.java" />
-        <option value="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/product/Car.java" />
-        <option value="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/product/FiatPandaCar.java" />
-        <option value="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/product/FiatBravoCar.java" />
-        <option value="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/product/VwGolfCar.java" />
-        <option value="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/product/VwPassatCar.java" />
-        <option value="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/Main.java" />
         <option value="$PROJECT_DIR$/src/fabryka/abstractFactory/Processor.java" />
         <option value="$PROJECT_DIR$/src/fabryka/abstractFactory/Computer.java" />
         <option value="$PROJECT_DIR$/src/fabryka/abstractFactory/Main.java" />
@@ -240,32 +98,37 @@
         <option value="$PROJECT_DIR$/src/dekorator/StarCafe/decorator/Mleko.java" />
         <option value="$PROJECT_DIR$/src/dekorator/StarCafe/Main.java" />
         <option value="$PROJECT_DIR$/src/warmup/Dish.java" />
-        <option value="$PROJECT_DIR$/src/warmup/Main.java" />
-        <option value="$PROJECT_DIR$/src/warmup/Pizza.java" />
-        <option value="$PROJECT_DIR$/src/warmup/Margaritha.java" />
         <option value="$PROJECT_DIR$/src/warmup/Napoli.java" />
-        <option value="$PROJECT_DIR$/src/strategia/graStaw/klient/Kaczka.java" />
         <option value="$PROJECT_DIR$/src/strategia/graStaw/klient/GumowaKaczka.java" />
-        <option value="$PROJECT_DIR$/src/strategia/graStaw/Main.java" />
         <option value="$PROJECT_DIR$/src/strategia/Podatki.java" />
-        <option value="$PROJECT_DIR$/src/obserwator/stacjaMeteo/observer/WarunkiBiezaceWyswietl.java" />
         <option value="$PROJECT_DIR$/src/obserwator/stacjaMeteo/StacjaMeteo.java" />
         <option value="$PROJECT_DIR$/src/obserwator/stacjaMeteo/observer/StatystykaPogodowa.java" />
         <option value="$PROJECT_DIR$/src/obserwator/pogotowie/subject/OperatorAdam.java" />
         <option value="$PROJECT_DIR$/src/singleton/Main.java" />
-        <option value="$PROJECT_DIR$/src/singleton/ClassicSingleton.java" />
         <option value="$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/factoryMethods/PolishProductProcess.java" />
         <option value="$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/Main.java" />
         <option value="$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/factoryMethods/GermanProductProcess.java" />
         <option value="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/factoryMethods/FiatCarProcess.java" />
+        <option value="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/Main.java" />
+        <option value="$PROJECT_DIR$/src/warmup/Pizza.java" />
+        <option value="$PROJECT_DIR$/src/warmup/Margaritha.java" />
+        <option value="$PROJECT_DIR$/src/warmup/Main.java" />
+        <option value="$PROJECT_DIR$/src/strategia/graStaw/klient/Kaczka.java" />
+        <option value="$PROJECT_DIR$/src/strategia/graStaw/Main.java" />
+        <option value="$PROJECT_DIR$/src/strategia/podatki/ContextImpl.java" />
+        <option value="$PROJECT_DIR$/src/strategia/podatki/TaxDE.java" />
+        <option value="$PROJECT_DIR$/src/strategia/podatki/Tax.java" />
+        <option value="$PROJECT_DIR$/src/strategia/podatki/Podatki.java" />
+        <option value="$PROJECT_DIR$/src/strategia/podatki/Context.java" />
+        <option value="$PROJECT_DIR$/src/strategia/podatki/Main.java" />
+        <option value="$PROJECT_DIR$/src/strategia/podatki/TaxPL.java" />
+        <option value="$PROJECT_DIR$/src/singleton/ClassicSingleton.java" />
+        <option value="$PROJECT_DIR$/src/obserwator/stacjaMeteo/observer/WyswietlElement.java" />
+        <option value="$PROJECT_DIR$/src/obserwator/stacjaMeteo/observer/Wyswietlacz.java" />
+        <option value="$PROJECT_DIR$/src/obserwator/stacjaMeteo/subject/DanePogodowe.java" />
+        <option value="$PROJECT_DIR$/src/obserwator/stacjaMeteo/observer/WarunkiBiezaceWyswietl.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
@@ -275,6 +138,7 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -296,40 +160,36 @@
               <item name="design-patterns-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="design-patterns-study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fabryka" type="462c0819:PsiDirectoryNode" />
+              <item name="obserwator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-patterns-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="design-patterns-study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fabryka" type="462c0819:PsiDirectoryNode" />
-              <item name="factoryMethod" type="462c0819:PsiDirectoryNode" />
+              <item name="obserwator" type="462c0819:PsiDirectoryNode" />
+              <item name="stacjaMeteo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-patterns-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="design-patterns-study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fabryka" type="462c0819:PsiDirectoryNode" />
-              <item name="factoryMethod" type="462c0819:PsiDirectoryNode" />
-              <item name="carFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="obserwator" type="462c0819:PsiDirectoryNode" />
+              <item name="stacjaMeteo" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-patterns-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="design-patterns-study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fabryka" type="462c0819:PsiDirectoryNode" />
-              <item name="factoryMethod" type="462c0819:PsiDirectoryNode" />
-              <item name="carFactory" type="462c0819:PsiDirectoryNode" />
-              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="obserwator" type="462c0819:PsiDirectoryNode" />
+              <item name="stacjaMeteo" type="462c0819:PsiDirectoryNode" />
+              <item name="subject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-patterns-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="design-patterns-study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fabryka" type="462c0819:PsiDirectoryNode" />
-              <item name="factoryMethod" type="462c0819:PsiDirectoryNode" />
-              <item name="carFactory" type="462c0819:PsiDirectoryNode" />
-              <item name="factoryMethods" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -340,9 +200,15 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536951152214" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543673703081" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="strategia.podatki" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="obserwator.stacjaMeteo.observer" />
       <recent name="warmup" />
@@ -365,26 +231,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.StacjaMeteo">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strategia.Main" />
+      <option name="MAIN_CLASS_NAME" value="strategia.podatki.Main" />
       <module name="Wzorce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strategia.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strategia.graStaw.Main" />
-      <module name="Wzorce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strategia.graStaw.*" />
+          <option name="PATTERN" value="strategia.podatki.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -432,6 +285,19 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strategia.Main" />
+      <module name="Wzorce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strategia.podatki.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fabryka.factoryMethod.simpleExample.Main" />
       <module name="Wzorce" />
       <extension name="coverage">
@@ -461,20 +327,33 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="StacjaMeteo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="obserwator.stacjaMeteo.StacjaMeteo" />
+      <module name="Wzorce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="obserwator.stacjaMeteo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.StacjaMeteo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StacjaMeteo" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -499,7 +378,9 @@
       <workItem from="1536852833851" duration="6381000" />
       <workItem from="1536907646760" duration="8000" />
       <workItem from="1536935791262" duration="50000" />
-      <workItem from="1536940185799" duration="6683000" />
+      <workItem from="1536940185799" duration="7389000" />
+      <workItem from="1543614714686" duration="152000" />
+      <workItem from="1543651130054" duration="16054000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1536854646410</created>
@@ -508,17 +389,58 @@
       <option name="project" value="LOCAL" />
       <updated>1536854646410</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Reszta zadań, powodzenia">
+      <created>1537016012810</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537016012810</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52604000" />
+    <option name="totallyTimeSpent" value="69516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2261745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19127516" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286638" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2956989" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32932165" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="Key Promoter X" order="11" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19902913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -537,6 +459,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -547,268 +470,19 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" />
-    </layout>
+      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="Key Promoter X" order="11" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/obserwator/stacjaMeteo/subject/Podmiot.java</url>
-          <line>4</line>
-          <properties />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Reszta zadań, powodzenia" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reszta zadań, powodzenia" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/dekorator/StarCafe/drinks/Napoj.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dekorator/rpgGame/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/warmup/Dish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/warmup/Margaritha.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/warmup/Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/warmup/Napoli.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/warmup/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/latanie/Latanie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/kwakanie/Kwacz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/kwakanie/NieKwacz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/kwakanie/Piszcz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/kwakanie/Kwakanie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/klient/DzikaKaczka.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/klient/GumowaKaczka.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/klient/Kaczka.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategia/Podatki.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/obserwator/stacjaMeteo/StacjaMeteo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="95" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/obserwator/stacjaMeteo/subject/DanePogodowe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/obserwator/stacjaMeteo/subject/Podmiot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/obserwator/stacjaMeteo/observer/WyswietlElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/obserwator/stacjaMeteo/observer/WarunkiBiezaceWyswietl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/obserwator/pogotowie/subject/Operator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/obserwator/pogotowie/observer/Ambulance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/obserwator/pogotowie/observer/FirstAmbulance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/obserwator/pogotowie/observer/SecondAmbulance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/obserwator/pogotowie/observer/ThirdAmbulance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/obserwator/pogotowie/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/obserwator/stacjaMeteo/observer/StatystykaPogodowa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/obserwator/stacjaMeteo/observer/Obserwator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/obserwator/pogotowie/subject/OperatorAdam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/singleton/ClassicSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/singleton/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/product/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/factoryMethods/PolishProductProcess.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -881,7 +555,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/car/FiatBravoCar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="68">
           <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
           <folding>
             <element signature="e#136#137#0" expanded="true" />
@@ -911,10 +585,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/factoryMethods/VolkswagenCarProcess.java">
+    <entry file="file://$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/factoryMethods/AbstractCarProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="119">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -925,17 +599,312 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/factoryMethods/AbstractCarProcess.java">
+    <entry file="file://$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/factoryMethods/VolkswagenCarProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="221">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wzorce.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/warmup/Dish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/warmup/Pizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/warmup/Napoli.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/warmup/Margaritha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/warmup/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/latanie/Latanie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/kwakanie/Kwakanie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/latanie/LatamBoMamSkrzydla.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategia/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/latanie/NieLatam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/kwakanie/Kwacz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/kwakanie/NieKwacz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/klient/DzikaKaczka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/klient/KaczkaPlaskonos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/klient/GumowaKaczka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/kwakanie/Piszcz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/klient/Kaczka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategia/podatki/ContextImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategia/podatki/TaxDE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="32" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategia/podatki/Tax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategia/podatki/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategia/podatki/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategia/podatki/TaxPL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/singleton/ClassicSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/obserwator/stacjaMeteo/subject/Podmiot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/obserwator/stacjaMeteo/subject/DanePogodowe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/obserwator/stacjaMeteo/observer/WyswietlElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/obserwator/stacjaMeteo/observer/Obserwator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/obserwator/stacjaMeteo/observer/StatystykaPogodowa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/obserwator/stacjaMeteo/observer/WarunkiBiezaceWyswietl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/obserwator/stacjaMeteo/StacjaMeteo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
         </state>
       </provider>
     </entry>
