@@ -1,53 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="218d21eb-1a76-4d10-8f49-2b495e2092d9" name="Default" comment="fix">
-      <change afterPath="$PROJECT_DIR$/src/dekorator/StarCafe/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dekorator/StarCafe/decorator/Mleko.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dekorator/StarCafe/decorator/SkladnikDekorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dekorator/StarCafe/drinks/MocnoPalona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dekorator/StarCafe/drinks/Napoj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dekorator/rpgGame/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dekorator/rpgGame/character/Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dekorator/rpgGame/character/CharacterBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dekorator/rpgGame/character/Paladin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dekorator/rpgGame/decorator/AttackDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dekorator/rpgGame/decorator/CharacterDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dekorator/rpgGame/decorator/DefenceDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dekorator/rpgGame/decorator/armor/Armor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dekorator/rpgGame/decorator/armor/WoodenShield.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dekorator/rpgGame/decorator/weapons/Sword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dekorator/rpgGame/decorator/weapons/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/factoryMethods/AbstractProductProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/factoryMethods/GermanProductProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/factoryMethods/PolishProductProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/product/GermanRoundProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/product/GermanSquareProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/product/PolishRoundProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/product/PolishSquareProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/simpleExample/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/simpleFactory/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/simpleFactory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/simpleFactory/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/simpleFactory/ProductProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/simpleFactory/SimpleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fabryka/simpleFactory/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obserwator/pogotowie/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obserwator/pogotowie/observer/Ambulance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obserwator/pogotowie/observer/FirstAmbulance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obserwator/pogotowie/observer/SecondAmbulance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obserwator/pogotowie/observer/ThirdAmbulance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obserwator/pogotowie/subject/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obserwator/pogotowie/subject/OperatorAdam.java" afterDir="false" />
+    <list default="true" id="218d21eb-1a76-4d10-8f49-2b495e2092d9" name="Default" comment="fx2">
+      <change afterPath="$PROJECT_DIR$/src/fabryka/abstractFactory/AbstractFactoryClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/car/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/car/FiatBravoCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/car/FiatPandaCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/car/VwGolfCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/car/VwPassatCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/factoryMethods/AbstractCarProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/factoryMethods/FiatCarProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/factoryMethods/PassatCarProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/factoryMethods/VolkswagenCarProcess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wzorce/fabryka/factoryMethod/simpleExample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wzorce/fabryka/factoryMethod/simpleExample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wzorce/obserwator/pogotowie/observer/FirstAmbulance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wzorce/obserwator/pogotowie/observer/FirstAmbulance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wzorce/obserwator/stacjaMeteo/StacjaMeteo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wzorce/obserwator/stacjaMeteo/StacjaMeteo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wzorce/obserwator/stacjaMeteo/observer/WarunkiBiezaceWyswietl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wzorce/obserwator/stacjaMeteo/observer/WarunkiBiezaceWyswietl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wzorce/obserwator/stacjaMeteo/subject/DanePogodowe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wzorce/obserwator/stacjaMeteo/subject/DanePogodowe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/obserwator/stacjaMeteo/StacjaMeteo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/obserwator/stacjaMeteo/StacjaMeteo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/obserwator/stacjaMeteo/observer/StatystykaPogodowa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/obserwator/stacjaMeteo/observer/StatystykaPogodowa.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,6 +26,36 @@
     <SUITE FILE_PATH="coverage/Wzorce$Main__2_.ic" NAME="Main (2) Coverage Results" MODIFIED="1536511492351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Dekorator.RpgGame.*</FILTER>
     </SUITE>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fabryka/abstractFactory/AbstractFactoryClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+              <folding>
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#657#658#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#880#881#0" expanded="true" />
+                <element signature="e#963#964#0" expanded="true" />
+                <element signature="e#1033#1034#0" expanded="true" />
+                <element signature="e#1274#1275#0" expanded="true" />
+                <element signature="e#1315#1316#0" expanded="true" />
+                <element signature="e#1365#1366#0" expanded="true" />
+                <element signature="e#1403#1404#0" expanded="true" />
+                <element signature="e#1511#1512#0" expanded="true" />
+                <element signature="e#1554#1555#0" expanded="true" />
+                <element signature="e#1604#1605#0" expanded="true" />
+                <element signature="e#1644#1645#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -81,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/strategia/graStaw/klient/KaczkaPlaskonos.java" />
         <option value="$PROJECT_DIR$/src/dekorator/StarCafe/decorator/SkladnikDekorator.java" />
         <option value="$PROJECT_DIR$/src/dekorator/StarCafe/drinks/Napoj.java" />
         <option value="$PROJECT_DIR$/src/dekorator/StarCafe/drinks/MocnoPalona.java" />
@@ -132,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/factoryMethods/AbstractCarProcess.java" />
         <option value="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/factoryMethods/FiatCarProcess.java" />
         <option value="$PROJECT_DIR$/src/fabryka/factoryMethod/carFactory/factoryMethods/PassatCarProcess.java" />
+        <option value="$PROJECT_DIR$/src/fabryka/abstractFactory/AbstractFactoryClient.java" />
       </list>
     </option>
   </component>
@@ -165,6 +161,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fabryka" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="design-patterns-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-patterns-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fabryka" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractFactory" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -176,11 +179,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543746950434" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543752665144" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.VCS" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -208,13 +211,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strategia.podatki.Main" />
+  <component name="RunManager" selected="Application.AbstractFactoryClient">
+    <configuration name="AbstractFactoryClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fabryka.abstractFactory.AbstractFactoryClient" />
       <module name="Wzorce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strategia.podatki.*" />
+          <option name="PATTERN" value="fabryka.abstractFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,19 +321,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.StacjaMeteo" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.AbstractFactoryClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractFactoryClient" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.StacjaMeteo" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +361,7 @@
       <workItem from="1536940185799" duration="7389000" />
       <workItem from="1543614714686" duration="152000" />
       <workItem from="1543651130054" duration="18388000" />
-      <workItem from="1543737813787" duration="5690000" />
+      <workItem from="1543737813787" duration="7537000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1536854646410</created>
@@ -381,16 +384,24 @@
       <option name="project" value="LOCAL" />
       <updated>1543673757301</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fx2">
+      <created>1543746991219</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543746991219</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77540000" />
+    <option name="totallyTimeSpent" value="79387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21946308" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18255034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -399,7 +410,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286638" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31854838" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.123655915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39919356" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -464,16 +475,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Reszta zadań, powodzenia" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="fx2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fx2" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/klient/GumowaKaczka.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/strategia/graStaw/kwakanie/Piszcz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -913,6 +918,30 @@
           <folding>
             <element signature="e#135#136#0" expanded="true" />
             <element signature="e#225#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fabryka/abstractFactory/AbstractFactoryClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1511#1512#0" expanded="true" />
+            <element signature="e#1554#1555#0" expanded="true" />
+            <element signature="e#1604#1605#0" expanded="true" />
+            <element signature="e#1644#1645#0" expanded="true" />
           </folding>
         </state>
       </provider>
