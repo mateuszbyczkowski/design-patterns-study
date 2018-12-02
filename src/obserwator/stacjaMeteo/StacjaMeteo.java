@@ -1,5 +1,6 @@
 package obserwator.stacjaMeteo;
 
+import obserwator.stacjaMeteo.observer.StatystykaPogodowa;
 import obserwator.stacjaMeteo.observer.WarunkiBiezaceWyswietl;
 import obserwator.stacjaMeteo.subject.DanePogodowe;
 
@@ -8,6 +9,7 @@ public class StacjaMeteo {
         DanePogodowe danePogodowe = new DanePogodowe();
 
         WarunkiBiezaceWyswietl warunkiBiezaceWyswietl = new WarunkiBiezaceWyswietl(danePogodowe);
+        StatystykaPogodowa statystykaPogodowa = new StatystykaPogodowa(danePogodowe);
         //ZADANIE!
         //DODAJ DWA KOLEJNE SPOSOBY WYSWIETLANIA
         //PROGNOZA
